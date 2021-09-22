@@ -6,9 +6,9 @@ function App() {
 
 
   useEffect(() => {
-    console.log("count")
+    console.log(count)
     // setCount(count + 1) el contador n para de contar 
-  }, [])
+  })
 
 
   return (
