@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     console.log(count)
     // setCount(count + 1) el contador n para de contar 
-  })
+  }, [count])
 
 
   return (
